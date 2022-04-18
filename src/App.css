@@ -1,0 +1,77 @@
+*{
+  box-sizing: border-box;
+  padding:0;
+  margin: 0;
+}
+
+.center{
+  max-width: 1080px;
+  margin:0 auto;
+  padding:0 2%;
+  display: flex;
+  float: left;
+
+}
+
+.center-conteudo{
+  max-width: 1080px;
+  margin: 10px auto;
+  padding:0 2%;
+  display: flex;
+}
+
+.main{
+  width: 100%;
+  background-color:deepskyblue;
+  background-image: url('https://ghelpimg.gsoft.com.br/PaginaSuporte/suporte.png');
+  background-position: center;
+  background-size: cover;
+  min-height: 300px;
+  max-height: 350px;
+  padding:40px 0;
+}
+
+.menu{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.menu h1{
+  color:white;
+  font-size: 80px;
+}
+
+.menu a{
+  color:white;
+  text-decoration: none;
+  border: 1px solid white;
+  padding: 3px 8px;
+  border-radius: 5px;
+}
+
+.conteudo-single{
+  width: 50%;
+  padding: 8px 20px;
+  margin-top: 30px;
+  margin-right: 20px;
+  border-style: solid;
+  border-radius: 4px;
+  border-color: rgb(156, 156, 156);
+}
+
+.conteudo-single h3{
+  text-align: center;
+}
+.conteudo{
+  background-color: rgb(252, 252, 252);
+}
+
+.titulo{
+  text-align: center;
+}
+
+@media screen and (max-width: 768px){
+  .conteudo-single{width:100%;}
+}
